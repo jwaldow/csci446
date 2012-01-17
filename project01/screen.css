@@ -1,0 +1,86 @@
+/*
+	the style sheets for life figure outer
+*/
+
+body{
+	margin-top: 0px;
+	font-family: helvetica, arial, sans-serif;
+	background-color: #AAA
+}
+
+#container{
+	width: 960px;
+	margin: auto;
+	border: 1px solid black;
+	background-color: #FCFCFC;
+}
+
+#header{
+	margin: 0px;
+	background-color:#CCC;
+	padding: 10px 0px 10px 10px;
+}
+
+#header h1{
+	margin: 0px;
+	letter-spacing: -.05em;
+}
+
+#header p.lead{
+		margin: 0px;
+		font-size: .8em;
+		color: #666;
+}
+
+#menuBar {
+	margin: 0px;
+	background-color: #000;
+	padding: 10px;
+}
+
+#menuBar ul {
+	list-style-type: none;
+	color: #FFF;
+	padding: 0px;
+	margin: 0px;
+}
+
+#menuBar ul li{
+	display: inline;
+	margin-right: 30px;
+
+}
+
+#menuBar ul li a:hover{
+	color: #F00;
+}
+#content {
+	padding: 10px;
+}
+
+#main{
+	float: left;
+	width: 600px;
+}
+
+#main h2{
+	margin-top: 0px;
+}
+
+#leftPanel {
+	float: left;
+	width: 600px;
+}
+
+#rightPanel {
+	background-color: #CAD7FC
+	float: right;
+	margin-right: .5em
+}
+#footer {
+	background-color: #CCCCCC
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}	
